@@ -1,0 +1,41 @@
+<%- include("partials/head"); -%>
+
+<h1>Greetings, <%=name-%></h1>
+
+    <h3>How are you feeling today?</h3>
+
+    <form action="/blogpost" method="post" class="row g-3">
+        <div class="mb-3 col-md-8 mx-auto">
+            <label for="title" class="form-label">Tell us the title of your story</label>
+            <input type="text" class="form-control" name="title" id="title" required>
+        </div>
+        
+        <div class="mb-3 col-md-8 mx-auto">
+            <label for="content" class="form-label">Description</label>
+            <textarea class="form-control" name="content" id="content" rows="5" placeholder="Write your story here" required></textarea>
+        </div>
+
+        <div class="col-md-8 mx-auto">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+
+    <h3>Current posts</h3>
+
+    <% if (locals.posts) { %> 
+        <div class="container">
+            <ul>
+                <% posts.forEach(function(post, index) { %>
+                    <li>
+                        <h4><%= post.title %></h4>
+                        <p>
+                            <%= post.content.length > 100 ? `${post.content.substring(0, 100)}...` : post.content %>
+                        </p>
+                        <a href="/post/<%= index %>">Read More</a>
+                    </li>
+                <% }); %>
+            </ul>
+        </div>
+    <% } %>
+
+<%- include("partials/footer"); -%>

@@ -1,0 +1,10 @@
+
+body {
+    background-color:bisque;
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+}
+
+.posttitle{
+    font-weight: bolder;
+}
