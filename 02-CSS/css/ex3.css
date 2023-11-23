@@ -1,0 +1,24 @@
+div{
+    width:200px;
+    height:200px;
+    position: absolute;
+    
+}
+
+
+
+.topcont{
+    background-color: red;
+    top:410px;
+    left:410px;
+}
+
+.midcont{
+    background-color: blue;
+    top:210px;
+    left:210px;
+}
+
+.lowcont{
+    background-color: yellow;
+}

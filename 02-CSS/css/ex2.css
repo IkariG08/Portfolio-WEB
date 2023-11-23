@@ -1,0 +1,26 @@
+div{
+    width:200px;
+    height:200px;
+    display:inline-block;
+    
+}
+
+
+
+.topcont{
+    background-color: red;
+    position: relative;
+    left: 415px;
+}
+
+.midcont{
+    background-color: blue;
+    position: relative;
+    left:-200px;
+}
+
+.lowcont{
+    background-color: yellow;
+    position: relative;
+    left:-200px;
+}

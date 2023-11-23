@@ -1,0 +1,26 @@
+div{
+    width:200px;
+    height:200px;
+}
+
+
+
+.topcont{
+    background-color: blue;
+    border:black solid 10px;
+    padding:20px;
+    color: white;
+
+}
+
+.midcont{
+    background-color: red;
+    border:black solid 20px;
+    margin-left: 257px;
+}
+
+.lowcont{
+    background-color: yellow;
+    border:black solid 10px;
+    margin-left: 495px;
+}
