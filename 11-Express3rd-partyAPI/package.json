@@ -1,0 +1,19 @@
+{
+  "name": "3rdpartyapi",
+  "version": "1.0.0",
+  "description": "- Go to https://api.openweathermap.org and create an account - On the API keys menu, create a new key - Save the API key in a secure location since you will use it to access the service - Go to the API section - Subscribe to the \"Current weather and forecast collection\" - Look for the free option and get the API key - Consult the documentation at: https://openweathermap.org/current",
+  "main": "server.js",
+  "scripts": {
+    "devstart": "nodemon server.js"
+  },
+  "author": "Giorgio",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "formdata": "^0.10.4",
+    "https": "^1.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
