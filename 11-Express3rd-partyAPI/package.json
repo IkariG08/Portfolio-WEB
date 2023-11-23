@@ -1,0 +1,18 @@
+{
+  "name": "11-express3rd-partyapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devstart": "nodemon server.js"
+  },
+  "author": "Giorgio",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "https": "^1.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
